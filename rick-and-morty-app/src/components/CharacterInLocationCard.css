@@ -1,0 +1,30 @@
+.character-in-location-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 150px;
+    margin: 10px;
+    transition: transform 0.2s;
+    background-color: #f9f9f9;
+  }
+  
+  .character-in-location-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .character-in-location-card img {
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .character-in-location-card h3 {
+    margin: 10px 0;
+  }
+  
+  .character-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  

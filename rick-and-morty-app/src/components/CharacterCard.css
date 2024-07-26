@@ -1,0 +1,28 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    transition: transform 0.2s;
+    background-color: #f9f9f9;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card h2 {
+    margin: 10px 0;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  

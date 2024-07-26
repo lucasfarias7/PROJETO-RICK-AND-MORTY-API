@@ -1,0 +1,13 @@
+.episode-detail {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .episode-detail h1 {
+    margin-bottom: 20px;
+  }
+  
+  .episode-detail p {
+    margin: 10px 0;
+  }
+  

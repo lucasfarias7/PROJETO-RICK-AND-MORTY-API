@@ -1,0 +1,23 @@
+.detail {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .detail img {
+    width: 300px;
+    border-radius: 8px;
+  }
+  
+  .detail h2 {
+    margin-top: 20px;
+  }
+  
+  .detail ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .detail li {
+    margin: 5px 0;
+  }
+  

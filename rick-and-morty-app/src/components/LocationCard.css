@@ -1,0 +1,23 @@
+.location-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    transition: transform 0.2s;
+    background-color: #080505;
+  }
+  
+  .location-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .location-card h2 {
+    margin: 10px 0;
+  }
+  
+  .location-card p {
+    margin: 5px 0;
+  }
+  

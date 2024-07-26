@@ -1,0 +1,57 @@
+/* src/components/Pagination.css */
+
+.pagination {
+    display: flex;
+    flex-direction: column; /* Alinha os botões verticalmente */
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+  }
+  
+  .pagination button {
+    margin: 5px 0; /* Espaçamento entre botões */
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%; /* Faz com que os botões ocupem toda a largura disponível */
+    max-width: 200px; /* Limita a largura máxima dos botões */
+  }
+  
+  .pagination button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .pagination button:disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+    color: #aaa;
+  }
+  
+  .pagination span {
+    font-size: 14px;
+    margin: 10px 0; /* Espaçamento vertical */
+  }
+  
+  @media (max-width: 768px) {
+    .pagination {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .pagination button {
+      padding: 8px 12px;
+      font-size: 12px;
+      max-width: 150px; /* Ajusta a largura máxima dos botões em telas pequenas */
+    }
+  
+    .pagination span {
+      font-size: 12px;
+    }
+  }
+  

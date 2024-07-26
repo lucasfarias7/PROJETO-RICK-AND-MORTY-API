@@ -1,0 +1,13 @@
+.location-detail {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .location-detail h1 {
+    margin-bottom: 20px;
+  }
+  
+  .location-detail p {
+    margin: 10px 0;
+  }
+  
