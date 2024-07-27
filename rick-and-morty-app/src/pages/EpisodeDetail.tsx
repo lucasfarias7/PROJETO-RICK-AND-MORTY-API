@@ -60,7 +60,7 @@ const EpisodeDetail: React.FC = () => {
       <h1>{episode.name}</h1>
       <p>Air Date: {episode.air_date}</p>
       <p>Episode: {episode.episode}</p>
-      <h2>Characters</h2>
+      <h2>Personagens</h2>
       <div className="character-list">
         {characters.map((character) => (
           <CharacterInEpisodeCard

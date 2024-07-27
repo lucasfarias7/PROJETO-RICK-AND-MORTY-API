@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { getAllLocationsPages } from '../api/rickAndMortyAPI';
 import LocationCard from '../components/LocationCard';
 import Pagination from '../components/Pagination';
+import './Locations.css';
 
 const Locations: React.FC = () => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -22,7 +23,7 @@ const Locations: React.FC = () => {
 
   return (
     <div>
-      <h1>Locations</h1>
+      <h1>Localizações</h1>
       <div className="location-list">
         {locations.map(location => (
           <LocationCard

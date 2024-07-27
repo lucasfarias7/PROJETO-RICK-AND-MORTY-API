@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { getAllCharacters } from '../api/rickAndMortyAPI';
 import CharacterCard from '../components/CharacterCard';
 import Pagination from '../components/Pagination';
+import './Characters.css';
 
 const Characters: React.FC = () => {
   
@@ -23,7 +24,7 @@ const Characters: React.FC = () => {
 
   return (
     <div>
-      <h1>Characters</h1>
+      <h1>Personagens</h1>
       <div className="character-list">
         {characters.map(character => (
           <CharacterCard

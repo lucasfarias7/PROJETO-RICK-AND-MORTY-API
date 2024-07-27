@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { getAllEpisodesPages } from '../api/rickAndMortyAPI';
 import EpisodeCard from '../components/EpisodeCard';
 import Pagination from '../components/Pagination';
+import './Episodes.css';
 
 const Episodes: React.FC = () => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -22,7 +23,7 @@ const Episodes: React.FC = () => {
 
   return (
     <div>
-      <h1>Episodes</h1>
+      <h1>Episódios</h1>
       <div className="episode-list">
         {episodes.map(episode => (
           <EpisodeCard

@@ -1,0 +1,55 @@
+/* src/pages/Home.css */
+
+.home {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .home-description {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #555;
+  }
+  
+  .home-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .home-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .home-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .home-section p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .home {
+      padding: 20px;
+    }
+  }
+  
