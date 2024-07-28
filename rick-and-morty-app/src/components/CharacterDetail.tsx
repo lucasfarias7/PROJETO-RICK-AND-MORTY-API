@@ -52,21 +52,27 @@ const CharacterDetail: React.FC = () => {
   }
 
   return (
-    <div className="detail">
-      <h1>{character.name}</h1>
-      <img src={character.image} alt={character.name} />
-      <p>Status: {character.status}</p>
-      <p>Species: {character.species}</p>
-      <p>Origin: {character.origin.name}</p>
-      <p>Location: {character.location.name}</p>
-      <h2>Episodes</h2>
-      <ul>
-        {episodes.map((episode) => (
-          <li key={episode.id}>
-            <Link to={`/episodes/${episode.id}`}>{episode.name}</Link>
-          </li>
-        ))}
-      </ul>
+    <div className="detail-container">
+      <div className="detail">
+        <div className="character-info">
+          <h1>{character.name}</h1>
+          <img src={character.image} alt={character.name} />
+          <p>Status: {character.status}</p>
+          <p>Species: {character.species}</p>
+          <p>Origin: {character.origin.name}</p>
+          <p>Location: {character.location.name}</p>
+        </div>
+        <div className="episodes-list">
+          <h2>Episodes</h2>
+          <ul>
+            {episodes.map((episode) => (
+              <li key={episode.id}>
+                <Link to={`/episodes/${episode.id}`}>{episode.name}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };

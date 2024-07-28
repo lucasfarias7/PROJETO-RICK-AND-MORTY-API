@@ -61,7 +61,7 @@ const LocationDetail: React.FC = () => {
       <h1>{location.name}</h1>
       <p>Type: {location.type}</p>
       <p>Dimension: {location.dimension}</p>
-      <h2>Residents</h2>
+      <h2>Moradores</h2>
       <div className="character-list">
         {characters.map((character) => (
           <CharacterInLocationCard
